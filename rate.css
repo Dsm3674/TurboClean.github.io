@@ -1,0 +1,71 @@
+
+
+
+
+.navbar {
+
+text-decoration: none;
+display: block;
+width:100%;
+background-color: black;
+
+}
+
+ul {
+overflow: hidden;
+list-style-type: none;
+padding:0px;
+margin: 0px;
+
+}
+
+
+
+li{
+
+color: white;
+background-color: black;
+font-family: Arial, Helvetica, sans-serif;
+float: left;
+word-spacing: 5px;
+padding: 10px 15px;
+}
+
+li:hover{
+
+
+background-color: grey;
+
+
+}
+
+body{
+ margin: 0px;
+ padding: 0px;
+background-repeat: no-repeat;
+  
+ background-image: url("blue.back.png");
+}
+
+
+
+
+
+
+
+#profile {
+
+width: 2.5%;
+transform: translate(1000px, -100px);
+
+
+}
+
+#irving{
+
+transform: translate(100px, 10);
+height: 350px;
+opacity: 90%;
+border-radius: 2rem;
+
+}

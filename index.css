@@ -1,0 +1,128 @@
+.navbar {
+
+text-decoration: none;
+display: block;
+width:150%;
+background-color: black;
+
+}
+
+ul {
+overflow: hidden;
+list-style-type: none;
+padding:0px;
+margin: 0px;
+
+}
+
+
+
+li{
+
+color: white;
+background-color: black;
+font-family: Arial, Helvetica, sans-serif;
+float: left;
+word-spacing: 5px;
+padding: 10px 15px;
+}
+
+li:hover{
+
+
+background-color: grey;
+
+
+}
+
+body{
+ margin: 0px;
+ padding: 0px;
+background-repeat: no-repeat;
+  
+ background-image: url("blue.back.png");
+}
+
+
+
+
+
+
+
+#profile {
+
+width: 2.5%;
+transform: translate(1000px, -100px);
+
+
+}
+
+#irving{
+
+transform: translate(100px, 10);
+height: 350px;
+opacity: 90%;
+border-radius: 2rem;
+
+}
+
+
+
+
+.endbar {
+  width: 148.5%; /* adjust as needed */
+  height:100px;
+  background-color: black;
+  border-radius: 1rem;
+  padding: 15px;
+  margin: 0px;
+  transform: translate(-430px, 440px);
+  text-align: center;
+  text-spacing-trim: 8px;
+}
+
+.endUl {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  transform: translate(500px);
+}
+
+.endLi a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  word-spacing: 5px;
+  padding: 12px 16px;
+  background-color: black;
+  border-bottom: 1px solid gray;
+  transition: background-color 0.3s ease;
+}
+
+.endLi a:hover {
+  background-color: #333;
+}
+
+.gallery {
+
+
+display: flex;
+gap: 40px;
+flex-wrap: wrap;
+justify-content: center; 
+}
+
+.square{
+
+
+transform: translate(450px, 30px);
+
+
+}
+
+
+
+
+
+
